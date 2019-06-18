@@ -276,9 +276,21 @@ ul.tupianpian p:hover{
     background-color:#000;
     opacity: 0.75;
     margin-top:0px;
-    font-size:22.14px;
+    font-size:21.14px;
     padding-top:110px;
-    line-height: 50px;
+    line-height: 20px;
+}
+ul.tupianpian span{
+    display: block;
+    margin:0 auto;
+    width:50px;
+    height: 0px;
+    margin-top:20px;
+    border:0.5px solid red;  
+    display:none; 
+}
+ul.tupianpian p:hover span{
+    display:block;
 }
 #u71{
     background:url("翡翠千手观音吊坠.png");
